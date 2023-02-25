@@ -22,13 +22,15 @@ public:
 		cout << eat << endl;
 		cout << lai << endl;
 	}
-	Dog() { cout << "dog create" << endl; }
+	Dog() {
+		cout << "dog create" << endl;
+	}
 	Dog(string col, int siz) {
 		color = col;
 		size = siz;
-	};
+	}
 	~Dog() {
 		cout << "detele dog" << endl;
-	};
+	}
 
 };
